@@ -49,9 +49,9 @@ function App() {
     setEmployeeList(response.data);
   };
 
-  const displayInfo = () => {
+  /*const displayInfo = () => {
     console.log(name, age, country, position, salary);
-  };
+  };*/
 
   const handleUpdate = (index) => {
     console.log("Update clicked for index:", index);
